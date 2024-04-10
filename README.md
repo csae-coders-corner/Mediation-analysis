@@ -64,7 +64,7 @@ Abebe et. al (2019) use mediation analysis to understand the effects on wage ear
 
 Acharya, A., M. Blackwell, and M. Sen (2016). Explaining Causal Findings Without Bias: Detecting and Assessing Direct Effects. American Political Science Review 110(3), 512–529. 
 
-Abebe, G., Caria, S., Fafchamps, M., Falco, P., Franklin, S., & Quinn, S. (2019). Curse of Anonymity or Tyranny of Distance? The Impacts of Job-Search Support in Urban Ethiopia. Mimeo. Available at: [http://www.simonrquinn.com/research/EthiopiaJobsExperiment.pdf]( http://www.simonrquinn.com/research/EthiopiaJobsExperiment.pdf_)
+Abebe, G., Caria, S., Fafchamps, M., Falco, P., Franklin, S., & Quinn, S. (2019). Curse of Anonymity or Tyranny of Distance? The Impacts of Job-Search Support in Urban Ethiopia. Mimeo. Available at: [[http://www.simonrquinn.com/EthiopiaJobsExperiment.pdf]( http://www.simonrquinn.com/EthiopiaJobsExperiment.pdf_)]
 
 **Giulio Schinaia, DPhil Candidate in Economics, Balliol College, and Research Assistant at the Mind and Behaviour Research Group, Blavatnik School of Government, Oxford 
 24 February 2020**
