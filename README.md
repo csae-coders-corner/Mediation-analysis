@@ -1,4 +1,7 @@
+![CC Graphics 2024_MediationAnalysis](https://github.com/csae-coders-corner/Mediation-analysis/assets/148211163/c23a2da3-2a34-402b-8cdb-9cb8f59fb2c9)
+
 # Mediation-analysis
+
 When we analyse results of an experiment, we are often interested in understanding how the effects of our treatment/intervention came to be. That is, are there any intermediate variables (mediators) in our data that have affected our final outcome of interest as a result of the treatment?
 
 Our goal in mediation analysis is to understand how much of the total treatment effect is due to: (i) an indirect effect operating through one or several observed mediators, and (ii) the direct effect of the intervention not captured by these observed mediator(s).
