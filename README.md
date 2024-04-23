@@ -28,9 +28,11 @@ In an experimental setting, the first assumption usually holds because the treat
 
 In Stata, we can implement this procedure in several lines of code:
 
+```
 reg outcome mediator treatment x_1  x_2 
 gen ytilde = outcome  - _b[mediator] * mediator 
 reg ytilde treatment  x_1 
+```
 
 [^1]:This second assumption is referred to in the literature as sequential unconfoundedness
 [^2]:Average controlled direct effect (ACDE) refers to the effect that the interventions would have on an outcome if the mediators are fixed at some particular value. Note that the code in Acharya et al. (2016) code omitted: "* mediator". 
@@ -39,14 +41,16 @@ The coefficient on treatment in the last regression is our estimate of the avera
 
 To get bootstrapped standard errors, we enclose these three steps in a Stata program and pass this program to the bootstrap command:
 
+```
 program define deboot, rclass
 reg outcome mediator treatment x_1  x_2  	
 gen ytilde = outcome  - _b[mediator] * mediator   3
 reg ytilde treatment  x_1 
 return scalar deffect = _b[treatment]
 end
+```
 
-bootstrap deffect=r(deffect), reps(1000) seed(12345): deboot
+`bootstrap deffect=r(deffect), reps(1000) seed(12345): deboot`
 
 ### Some practical notes:
 
